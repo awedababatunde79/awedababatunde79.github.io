@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#paragraph-one {
+    color: rgb(9, 9, 122);
+    background-color: rgb(243, 243, 149);
+}
+
+#paragraph-two {
+    color: rgb(85, 196, 85);
+    background-color: rgb(85, 53, 58);
+}
+
+#paragraph-three {
+    color: rgb(201, 235, 13);
+    background-color: rgb(70, 138, 132);
+}
+
+#paragraph-four {
+    color: rgb(99, 2, 99);
+    background-color: rgb(248, 116, 116);
+}
+
+#span-one {
+    color: rgb(58, 2, 2);
+    background-color: rgb(117, 117, 32);
+}
+
+#span-two {
+    color: rgb(236, 156, 6);
+    background-color: rgb(41, 41, 129);
+}
+
+#span-three {
+    color: rgb(9, 235, 235);
+    background-color: rgb(134, 109, 61);
+}
