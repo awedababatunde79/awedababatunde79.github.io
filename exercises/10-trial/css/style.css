@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color: black;
+}
+h2 {
+    font-size: 36px;
+    margin-bottom: 18px;
+}
+/* Trial 1 */
+#span1-text {
+    color: green;
+    font-size: 18px;
+}
+/* Trial 2 */
+#span2-text {
+    font-size: 18px;
+}
+#span2-pink-1,
+#span2-pink-2 {
+    color: #F711F7;
+}
+/* Trial 3 */
+#span3-text {
+    font-size: 18px;
+}
+#span3-red {
+    color: red;
+}
+#span3-gold {
+    color: goldenrod;
+}
+#span3-blue {
+    color: blue;
+}
+/* Trial 4 */
+#span4-text {
+    font-size: 18px;
+}
+#span4-highlight {
+    background-color: skyblue;
+}
+/* Trial 5 */
+#span5-text {
+    font-size: 18px;
+}
+#span5-highlight {
+    background-color: rgb(255, 255, 0);
+}
+/* Trial 6 */
+#span6-text {
+    font-size: 18px;
+}
+#span6-bold-1,
+#span6-bold-2 {
+    font-weight: bold;
+}
+/* Trial 7 */
+#span7-text {
+    font-size: 18px;
+}
+#span7-italic-1,
+#span7-italic-2 {
+    font-style: italic;
+}
+
+#span7-bold {
+    font-weight: bold;
+}
+
+/* Trial 8 */
+#span8-text {
+    font-size: 18px;
+}
+
+#span8-underline-1,
+#span8-underline-2 {
+    text-decoration: underline;
+}
+
+#span8-bold {
+    font-weight: bold;
+}
+
+/* Trial 9 */
+#span9-heading {
+    font-size: 36px;
+    margin-bottom: 18px;
+    margin-top: 0;
+}
+
+#span9-text {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+/* Trial 10 */
+#span10-eyebrow {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+#span10-heading {
+    font-size: 48px;
+    text-align: center;
+    margin: 0;
+}
+
+#span10-subheading {
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 0;
+}

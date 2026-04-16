@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#span-1 {
+    font-weight: bold;
+    text-decoration: underline overline #ff3028;
+}
+
+#span-2 {
+    font-style: italic;
+}
+#paragraph-1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#hyperlink {
+    text-decoration: none;
+    color: lime;
+}
+#image-2 {
+    /* does't work! */
+    text-align: center;
+}
+#container {
+    text-align: center;
+}
