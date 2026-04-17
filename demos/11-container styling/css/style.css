@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#p1 {
+    color: rgb(0, 255, 42);
+}
+.shadowed {
+    background-color: lightgray;
+    margin: 24px;
+    padding: 24px;
+    /* x-offset y-offset blur-radius color */
+    box-shadow: 
+        inset 0px 4px 12px #1900ffdb,
+        4px 4px 4px red;
+}
+p {
+    /* serif, san-serif, monosspace, cursive, fantasy; */
+        font-family: 
+            'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+            'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 0, 21);
+}
+}
