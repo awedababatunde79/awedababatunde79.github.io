@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#container {
+    width: 500px;
+    min-height: 100vh;
+    background-color: #333333;
+    font-size: 0px;
+
+}
+
+.block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.red {
+    background-color: red
+}
+.blue {
+    background-color: blue
+}
+.green {
+    background-color: green
+}
+.red {
+    background-color: red
+}
+.grey {
+    background-color: grey
+}
+.green {
+    background-color: green
+}
+.purple {
+    background-color: purple
+}
+.pink {
+    background-color: Pink
+}
+.brown {
+    background-color: Brown
+}

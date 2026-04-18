@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#container {
+    width: 500px;
+    min-height: 100vh;
+    background-color: #222;
+    font-size: 0px;
+    margin: 24px 0px;
+}
+
+.block {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #444;
+    box-sizing: border-box;
+}
+
+.grey {
+    background-color: #222;
+    border: 3px solid #333;
+}
+
+.cyan {
+    background-color: cyan;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.green {
+    background-color: limegreen;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: gold;
+}
+
+.blue {
+    background-color: royalblue;
+}
