@@ -1,0 +1,70 @@
+.post-it {
+    background-color: #fff799;
+    display: inline-block;
+    width: 180px;
+    height: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 24px;
+    padding: 24px;
+    vertical-align: top;
+}
+
+.row {
+    display: block;
+    width: 100%;
+}
+
+.yellow {
+    background-color: #f4ef46;
+}
+
+.pink {
+    background-color: #efbfd0;
+}
+
+.blue {
+    background-color: #cfe4ee;
+}
+
+.green {
+    background-color: #a8d9a2;
+}
+
+.post-it h2,
+.post-it h3 {
+    margin-top: 0;
+}
+
+.post-it p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.post-it ul {
+    margin: 10px 0 0 18px;
+    padding: 0;
+    font-size: 14px;
+}
+
+.center-note {
+    text-align: center;
+}
+
+.photo {
+    background-color: white;
+    padding: 12px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.quote p {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
