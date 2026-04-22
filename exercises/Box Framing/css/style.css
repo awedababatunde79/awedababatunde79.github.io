@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* Basic rectangular picture frame */
+#frame-one {
+    width: 500px;
+    border: 8px solid brown;
+    background-color: floralwhite;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Rounded picture frame */
+#frame-two {
+    width: 500px;
+    border: 8px solid darkgoldenrod;
+    background-color: floralwhite;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50%;
+}
+
+/* Text frame */
+#text-frame {
+    display: inline-block;
+    width: 500px;
+    border: 8px solid #cde2e2;
+    background-color: #ebe9e6;
+    padding: 20px;
+    margin: 20px;
+}

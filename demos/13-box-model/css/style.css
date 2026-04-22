@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+div {
+    border: 10px outset green;
+    margin: 24px;
+    padding: 50px 26px;
+    border-radius: 25px;
+    background-color: aquamarine;
+    
+    
+}
