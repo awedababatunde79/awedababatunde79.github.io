@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+/* Layout */
+.gallery {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+/* Common frame style */
+#frame-rect,
+#frame-wide,
+#frame-circle {
+    background-color: #f8f6f0;   /* off-white mat */
+    padding: 20px;
+    border: 12px solid #5a4526; /* brown frame */
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+/* Sizes */
+#frame-rect {
+    width: 220px;
+}
+
+#frame-wide {
+    width: 300px;
+}
+
+#frame-circle {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Text frame */
+#text-frame {
+    display: inline-block;
+    width: 200px;
+    background-color: #cce7ef;
+    padding: 15px;
+    border: 12px solid #5a4526;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    text-align: center;
+}
