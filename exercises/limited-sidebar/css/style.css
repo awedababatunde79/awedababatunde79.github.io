@@ -34,7 +34,7 @@ body {
     font-style: italic;
 }
 
-/* Compound selector (MOST IMPORTANT PART) */
+/* Compound selector (THE IMPORTANT PART) */
 #sidebar .chapter.edit {
     color: red;
 }

@@ -1,0 +1,66 @@
+#morning,
+#afternoon,
+#evening {
+  width: 80%;
+  margin: 25px auto;
+  padding: 25px;
+  border-radius: 15px;
+}
+#morning {
+  background-color: #b1e634;
+}
+#afternoon {
+  background-color: #ff9978;
+}
+#evening {
+  background-color: #0ab481;
+}
+#morning h2,
+#afternoon h2,
+#evening h2 {
+  font-size: 28px;
+  font-family: Arial, sans-serif;
+}
+#morning ul,
+#afternoon ul,
+#evening ul {
+  background-color: #ffffff8c;
+  padding: 25px 25px 25px 50px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+#morning li,
+#afternoon li,
+#evening li {
+  margin: 10px;
+}
+#morning .completed,
+#afternoon .completed,
+#evening .completed {
+  text-decoration: line-through;
+}
+#morning .important,
+#afternoon .important,
+#evening .important {
+  font-weight: bold;
+  color: crimson;
+}
+#morning .completed.important,
+#afternoon .completed.important,
+#evening .completed.important {
+  background-color: #33ff00;
+  padding: 5px;
+}
+#morning .button,
+#afternoon .button,
+#evening .button {
+  display: inline-block;
+  background-color: #9df09d;
+  color: black;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 7px 20px;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}

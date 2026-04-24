@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.button {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+.simple {
+    border: 2px solid black;padding: 8px;
+    background-color: lightgray;
+    border-radius: 8px;
+    margin: 24px;
+}
+.background {
+    border: 2px solid black;
+    color: white;
+    padding: 24px;
+    background-color: fuchsia;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 24px;
+}
+.border {
+    border: 3px solid brown;
+    color: brown;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 24px;
+    background-color: lightgray;
+    border-radius: 8px;
+    margin: 24px;
+    /*Optional*/
+    min-width: 250px;
+    text-align: center;
+}
+.wide {
+    display: block;border: 3px solid brown;
+    text-align: center;
+    
+  
+}
+#section-3{
+    width: 400px
+}
+
+
+
+
+
+
+
+
+
+[
