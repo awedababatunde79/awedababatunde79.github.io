@@ -2,9 +2,9 @@
 #afternoon,
 #evening {
   width: 80%;
-  margin: 25px auto;
-  padding: 25px;
-  border-radius: 15px;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 20px;
 }
 #morning {
   background-color: #b1e634;
@@ -18,7 +18,7 @@
 #morning h2,
 #afternoon h2,
 #evening h2 {
-  font-size: 28px;
+  font-size: 30px;
   font-family: Arial, sans-serif;
 }
 #morning ul,
