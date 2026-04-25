@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+body {
+  margin: 0;
+  background-color: #343a91;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+#blog-post {
+  width: 700px;
+  margin: 40px auto;
+  padding: 50px;
+  background-color: #abbbe6;
+}
+.category {
+  color: #0427ee;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+img {
+  width: 100%;
+  margin: 20px 0;
+}
+p {
+  font-size: 18px;
+}
