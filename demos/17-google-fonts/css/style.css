@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  background-color: #dff6ff;
+  color: #12343b;
+}
+
+.blog-container {
+  width: 700px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+header {
+  text-align: center;
+  border-bottom: 3px solid #76c7d8;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+}}
