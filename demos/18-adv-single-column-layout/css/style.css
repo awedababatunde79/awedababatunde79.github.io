@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+    max-width: 400px;
+    margin: 24px auto;
+    }
+
+.light-container {
+    background-color: lightgreen;
+    padding: 48px 0px;
+}
+.dark-container: #013D01;
