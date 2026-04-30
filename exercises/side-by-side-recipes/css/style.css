@@ -1,8 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0px;
-    font-family: sans-serif;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+  background-color: #faf6f0;
+  color: #2f2f2f;
+}
+
+#single-column {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+#Side-by-Side-Recipes {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 18px;
+}
+
+.image-container,
+.text-container {
+  flex: 1;
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 16px;
+  display: block;
+}
+
+.category {
+  color: #b76e4c;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.text-container h1 {
+  font-size: 42px;
+  margin: 10px 0;
+}
+
+.text-container p {
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #b76e4c;
+  color: white;
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+#related-heading {
+  text-align: center;
+  margin: 50px 0 25px;
+  font-size: 32px;
+}
+
+#three-cards {
+  display: flex;
+  gap: 25px;
+}
+
+.card {
+  flex: 1;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  border-radius: 14px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-top: 12px;
 }
