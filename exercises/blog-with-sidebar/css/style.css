@@ -31,7 +31,7 @@ body {
 }
 
 .category {
-  color: #1f7a8c;
+  color: #1f8c3a;
   font-weight: bold;
   
 }
@@ -70,13 +70,13 @@ body {
 
 .sidebar-content a {
   display: block;
-  color: #14505c;
+  color: #0f0e0e;
   text-decoration: none;
   margin: 12px 0;
   font-weight: bold;
 }
 
 .sidebar-content a:hover {
-  color: #0b2f36;
+  color: #08ad76;
   background-color: #eec08c;
 }
