@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f4eadc;
+    color: #3b2a1a;
+}
+
+#navbar {
+    background-color: #5b3a29;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 8%;
+}
+
+#logo {
+    color: #f4eadc;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#nav-links a {
+    color: #f4eadc;
+    text-decoration: none;
+    margin-left: 24px;
+    font-size: 20px;
+}
+
+#hero {
+    background-image: url("../images/OIP.webp");
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    text-align: center;
+    padding: 60px 8%;
+}
+
