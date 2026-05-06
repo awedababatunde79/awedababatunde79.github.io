@@ -42,4 +42,46 @@ body {
     text-align: center;
     padding: 60px 8%;
 }
+#hero-content {
+  width: 90%;
+  max-width: 700px;
+  margin-left: 70px;
+  color: white;
+}
+
+#hero-content h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+#hero-content p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+#hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px 24px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.order-button {
+  background-color: #c76f3a;
+  color: white;
+}
+
+.book-button {
+  background-color: #f4eadc;
+  color: #3b2a1a;
+}
+
+
 
