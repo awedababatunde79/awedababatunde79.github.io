@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2cd316;
+    color: #1f2d24;
+}
+
+#navbar {
+    background-color: #164b35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+}
+
+#logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 24px;
+    font-size: 17px;
+}
+
+#nav-links a:hover {
+    color: #f2c94c;
+}
+
+#hero {
+    min-height: 70vh;
+    background-color: rgba(0, 0, 0, 0.45);
+
+    background-image: url("../images/flag.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    color: #012e01;
+    padding: 32px;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    margin: 0 0 12px;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin: 0;
+}
+
+#layout {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 48px 24px;
+    text-align: center;
+}
+
+#layout h2 {
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 14px;
+    display: block;
+}
