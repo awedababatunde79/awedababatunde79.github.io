@@ -45,9 +45,12 @@ body {
 
 #hero {
     min-height: 70vh;
-    background-color: rgba(0, 0, 0, 0.45);
-
-    background-image: url("../images/flag.jpeg");
+    background:
+        linear-gradient(
+            #00000073,
+            #00000073
+        ),
+        url("../images/download.jpeg");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -57,7 +60,7 @@ body {
 }
 
 .hero-content {
-    color: #012e01;
+    color: #090c00;
     padding: 32px;
 }
 
