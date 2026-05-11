@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #4a5a2f;
+    color: white;
+}
+
+/* NAVBAR */
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: rgb(5, 36, 3);
+}
+
+#logo {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: "Playfair Display", serif;
+}
+
+#nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 24px;
+}
+
+/* HERO */
+
+#hero {
+    height: 90vh;
+    background-image:
+        linear-gradient(
+            #00000073,
+            #00000073
+        ),
+        url("../images/urban-hi-res-1ui7.jpg");
+
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 72px;
+    margin-bottom: 24px;
+    font-family: "Playfair Display", serif;
+}
+
+.hero-button {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 40px;
+    font-weight: bold;
+}
+
+/* GALLERY */
+
+#gallery {
+    padding: 80px 8%;
+}
+
+#gallery h2 {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 48px;
+    font-family: "Playfair Display", serif;
+}
+
+.gallery-layout {
+    display: grid;
+    grid-template-columns:
+        1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.gallery-layout img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* CARDS */
+
+#cards-section {
+    display: flex;
+    gap: 24px;
+    padding: 80px 8%;
+}
+
+.card {
+    flex: 1;
+    background-color: #81855f;
+    padding: 30px 24px;
+    text-align: center;
+    border-radius: 16px;
+}
+
+.card h3 {
+    font-size: 32px;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+
+    #navbar {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    #nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero-content h1 {
+        font-size: 48px;
+    }
+
+    .gallery-layout {
+        grid-template-columns: 1fr;
+    }
+
+    #cards-section {
+        flex-direction: column;
+    }
+
+}
